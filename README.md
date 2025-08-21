@@ -1,70 +1,103 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo](https://login-signup-app-olive.vercel.app/signup).
 
-## Available Scripts
+# 🚀 Login-Signup-App
 
-In the project directory, you can run:
+A simple **Login & Signup React app** built with Create React App, styled using **Material UI components** and icons.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Tech Stack
+- **Node.js v18+**
+- **React (CRA)**
+- **Material UI (MUI v5)** – components and icons
+- **React Router** – navigation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Prerequisites
+Make sure you have installed:
+- Node.js **18+**
+- npm (**comes with Node**)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check your versions:
+```bash
+node -v   # should print >= 18.x
+npm -v
+🔧 Installation & Setup
+1. Clone the repository
 
-### `npm run build`
+bash
+Copy
+Edit
+git clone https://github.com/interviewByte/Login-Signup-App.git
+cd Login-Signup-App
+2. Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy
+Edit
+npm install
+3. Install Material UI & Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy
+Edit
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+4. Run the development server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy
+Edit
+npm start
+The app will open at 👉 http://localhost:3000
 
-### `npm run eject`
+📜 Available Scripts
+npm start → Runs the app in development mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm test → Launches the test runner.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run build → Builds the app for production (in /build).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm run eject → Exposes CRA configs (not reversible).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Project Structure
+csharp
+Copy
+Edit
+Login-Signup-App/
+├── public/               # Static files
+├── src/
+│   ├── components/       # Reusable components (Login, Signup, etc.)
+│   ├── css/              # Custom CSS files
+│   ├── App.js            # Main app entry
+│   └── index.js          # React DOM entry point
+└── package.json
+📝 Features
+✅ Responsive Login & Signup UI
+✅ Material UI form components
+✅ Live validation using React hooks
+✅ Password show/hide toggle with icons
+✅ Navigation with React Router
 
-## Learn More
+🚀 Deployment
+To build the project for production:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+npm run build
+The optimized build will be in the /build folder and can be deployed on Netlify, Vercel, GitHub Pages, or any static hosting provider.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributing
+Fork the repo
 
-### Code Splitting
+Create a feature branch (git checkout -b feature/your-feature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Commit your changes (git commit -m 'Add new feature')
 
-### Analyzing the Bundle Size
+Push to branch (git push origin feature/your-feature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open a Pull Request
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
