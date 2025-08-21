@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfe8e6;
+    /* light teal background */
+    height: 100vh;
+}
+
+.login-box {
+    background: #fff;
+    width: 900px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    background-color: #00695c;
+    /* teal green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-header h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.login-header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.form-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.login-input .MuiFormHelperText-root {
+    color: #d32f2f;
+    font-size: 0.75rem;
+    margin-left: 8px;
+}
+
+.login-btn {
+    background-color: #00695c !important;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.signup-text {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}

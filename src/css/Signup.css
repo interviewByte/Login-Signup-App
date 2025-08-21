@@ -1,0 +1,65 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfe8e6;
+    /* light teal background */
+    height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.signup-card {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.signup-header {
+    background-color: #00695c;
+    /* teal */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 72px;
+}
+
+.signup-input .MuiFilledInput-root {
+    background-color: #f9f9f9;
+}
+
+.signup-btn {
+    background-color: #00695c !important;
+    padding: 12px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 120px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* space between rows */
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    /* space between two inputs in same row */
+}
+
+.form-row .signup-input {
+    flex: 1;
+    /* each input takes equal width */
+}
