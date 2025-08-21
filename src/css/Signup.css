@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     background-color: #cfe8e6;
-    /* light teal background */
     height: 100vh;
     padding: 15px;
     box-sizing: border-box;
@@ -15,11 +14,11 @@
     border-radius: 6px;
     overflow: hidden;
     background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .signup-header {
     background-color: #00695c;
-    /* teal */
     color: white;
     text-align: center;
     padding: 20px;
@@ -30,7 +29,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 72px;
+    padding: 36px 63px;
+    box-sizing: border-box;
 }
 
 .signup-input .MuiFilledInput-root {
@@ -43,23 +43,51 @@
     margin-top: 30px;
     font-weight: bold;
     font-size: 16px;
-    width: 120px;
-}
-
-.signup-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    /* space between rows */
+    width: 120px !important;
+    margin-left: auto !important;
 }
 
 .form-row {
     display: flex;
     gap: 15px;
-    /* space between two inputs in same row */
 }
 
 .form-row .signup-input {
     flex: 1;
-    /* each input takes equal width */
+}
+
+/* ----------- Responsive Breakpoints ----------- */
+
+@media (max-width: 768px) {
+    .signup-form {
+        padding: 40px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .signup-btn {
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-form {
+        padding: 24px;
+    }
+
+    .signup-header {
+        padding: 15px;
+    }
+
+    .signup-header h6 {
+        font-size: 18px;
+    }
+
+    .signup-btn {
+        font-size: 14px;
+        padding: 10px;
+        width: 100px !important;
+    }
 }

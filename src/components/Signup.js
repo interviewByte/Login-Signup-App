@@ -8,8 +8,9 @@ import {
 import { useEffect, useState } from "react";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import "../css/Signup.css";
-
+import { useNavigate } from "react-router-dom";
 function Signup() {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState({
     password: false,
     confirmPassword: false,
@@ -138,7 +139,7 @@ function Signup() {
     e.preventDefault();
     if (isFormValid) {
       console.log("Form submitted:", formData);
-      // Add your signup logic here
+      navigate("/login");
     }
   };
 
